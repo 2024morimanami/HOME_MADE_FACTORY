@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME MADE FACTORY</title>
+    <meta name="description" content="お菓子作りを趣味にしたい方必見！HOME MADE FACTORYではオンラインでも直接訪問でもお手軽な価格で洋菓子作りが学べます。">
+
+    <!-- css -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" href="image/header-logo .png" type="favicon">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/3bdd6aeb12.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="body">
+    <header id="header">
+        <p><a href="#"><img class="header-logo-img" src="image/header-logo .png" alt="ロゴ"></a></p>
+        <nav id="header-nav">
+            <ul class="header-nav-list">
+                <a href="#main-about">
+                    <li class="header-nav-item">ABOUT</li>
+                </a>
+                <a href="#main-info">
+                    <li class="header-nav-item">NEWS</li>
+                </a>
+                <a href="#main-voice">
+                    <li class="header-nav-item">VOICE</li>
+                </a>
+                <a href="#main-detail">
+                    <li class="header-nav-item">DETAIL</li>
+                </a>
+                <a href="#main-contact">
+                    <li class="header-nav-item">CONTACT</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="main-visual">
+            <div id="main-visual-text">
+                <h1>Welcome to <span>HOME MADE FACTORY!</span></h1>
+            </div>
+            <div id="main-visual-video">
+                <video autoplay loop muted playsinline poster="image/main-visual-img-iframe.png">
+                    <source src="image/main-visual-video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <section id="main-about">
+            <div class="container">
+                <div class="main-about-teacher">
+                    <h2>ABOUT</h2>
+                    <h3>HOME MADE FACTORYとは</h3>
+                    <div class="main-about-HMF-img">
+                        <figure>
+                            <figcaption>手軽に挑戦したい方</figcaption>
+                            <img src="image/main-about-HMF-img1.png" alt="about イメージ">
+                        </figure>
+                        <figure>
+                            <figcaption>子どもと一緒に楽しみたい方</figcaption>
+                            <img src="image/main-about-HMF-img2.png" alt="about イメージ">
+                        </figure>
+                        <figure>
+                            <figcaption>リモート参加したい男性の方</figcaption>
+                            <img src="image/main-about-HMF-img3.png" alt="about イメージ">
+                        </figure>
+                        <figure>
+                            <figcaption>自分のペースで参加したい方</figcaption>
+                            <img src="image/main-about-HMF-img4.png" alt="about イメージ">
+                        </figure>
+                    </div>
+                    <p id="sub-title"><span id="text1">忙しい合間に</span><span id="text2">手軽に</span><span id="text3">好きな形式で</span><span id="text4">お菓子作りができる講座です</span></p>
+                    <h3>講師</h3>
+                    <div class="main-about-teacher-item">
+                        <img src="image/main-about-teacher-img.png" alt="about 講師">
+                        <div class="about-teacher-text">
+                            <h4>創家　薫先生-Souke Kaoru-</h4>
+                            <p>お菓子作りができるとこれからの人生がとっても豊かになり、幸せが舞い込んできます。夢もどんどん膨らみます。自分の作ったお菓子の販売ができたらどうでしょう？お客様が購入してくださった時、きっと今まで味わったことのない感動や喜びを体験することができるでしょう。かけがえなのない経験は自信へとつながり、新たなチャレンジの原動力となっていきます。スイートリボンはあなたの夢を実現するためのレッスンプログラムを準備してお待ちしています。やってみたいな、はじめたいなと思った今がチャンス。未来に向かって一緒に進んでいきましょう。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-character">
+                    <h3>3つの特徴</h3>
+                    <div class="about-character-wrap">
+                        <div class="about-character-item">
+                            <h4>1.きめ細やかな指導</h4>
+                            <img src="image/main-about-character-img1.png" alt="about 対面レッスン">
+                            <p>当日はコーヒーや紅茶をお供に、
+                                お作り頂いたケーキを囲んで試食や懇親会も楽しめます。また、作ったお菓子はお土産としてお持ち帰り頂けます。材料販売も致しますので、お気軽にお申し付け下さい。</p>
+                        </div>
+                        <div class="about-character-item">
+                            <h4>2.欠席の際もご安心</h4>
+                            <img src="image/main-about-character-img2.png" alt="about レシピ公開">
+                            <p>やむなく欠席される場合は、事前に連絡を頂ければその回のレシピとケーキをご用意致します。
+                                代理の方の受講も可能です。開設致しましたSNSでは簡単なレシピも公開しております。</p>
+                        </div>
+                        <div class="about-character-item">
+                            <h4>3.オンライン参加可</h4>
+                            <img src="image/main-about-character-img3.png" alt="about オンラインレッスン">
+                            <p>お申込みいただければオンラインで配信したものを視聴することができるので、ご自身のお好きな時間・お好きな場所でお菓子教室に参加できます。また過去のアーカイブも視聴可能です！（別途サブスクで550円）
+                            </p>
+                        </div>
+                    </div>
+                    <div class="btn-link">
+                        <p><a href="#main-contact">レッスン申込をする&gt;</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="main-info">
+            <div class="container">
+                <div class="main-info-item">
+                    <h2>NEWS</h2>
+                    <div id="main-info-culunm">
+                        <div class="main-info-box">
+                            <figure class="main-info-box-img">
+                                <img src="image/main-info-img3.png" alt="info SNS">
+                            </figure>
+                            <div class="main-info-box-text">
+                                <p><span
+                                        class="info-box-maintext">SNSを開設致しました!</span>instagramとX(旧Twitter)では対面レッスンの様子や受講者様の声、講師からの挨拶など日々更新しております。また、旧公式HPに掲載されていた簡単なレシピページはtiktokにてレシピ動画に変わりました。ぜひぜひフォローいただけると嬉しいです。(tiktokでのレシピはオンライン参加・サブスクなどのレッスンのレシピとは異なります。)
+                                <div id="main-info-links">
+                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="main-info-flex-direction">
+                            <div class="main-info-box">
+                                <figure class="main-info-box-img">
+                                    <img src="image/main-info-img.png" alt="info クリスマスケーキ">
+                                </figure>
+                                <div class="main-info-box-text">
+                                    <h3>レッスンのお知らせ</h3>
+                                    <p><span class="info-box-maintext">12月のケーキが決まりました!</span>クリスマスシーズンになりますので、
+                                        こちらのクリスマスケーキを作ろうと思います。また、一人用のケーキをレッスンで扱いますが、ご希望頂いた方にはホールケーキのレシピもご用意できます。レッスンご希望の方は、お早めにお申し込みください。
+                                    </p>
+                                    <p><a href="#main-contact"><img id="main-info-box-btn2"
+                                                src="image/main-info-btn.png" alt="info 申し込むボタン"></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-info-box">
+                        <figure class="main-info-box-img">
+                            <img src="image/main-info-img2.png" alt="info ミルフィーユ">
+                        </figure>
+                        <div class="main-info-box-text">
+                            <h3>レッスンのお知らせ</h3>
+                            <p><span
+                                    class="info-box-maintext">11月のケーキが決まりました!</span>美味しいイチゴが入りましたのでこちらのミルフィーユを作ろうと思います。また、一人用のケーキをレッスンで扱いますが、ご希望頂いた方には大きいサイズのケーキのレシピもご用意できます。レッスンご希望の方は、お早めにお申し込みください。
+                            </p>
+                            <p><a href="#main-contact"><img id="main-info-box-btn" src="image/main-info-btn.png"
+                                        alt="info 申し込むボタン"></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="main-voice">
+            <div class="container">
+                <div class="main-voice-item-wrap">
+                    <h2>VOICE</h2>
+                    <h3>1年間受講した主婦/H.M様</h3>
+                    <div class="main-voice-item">
+                        <img src="image/main-voice-img.png" alt="voice 口コミ">
+                        <p>以前からお菓子作りへ憧れがあったため受講致しました。先生にコツや材料・器具の選定など丁寧に教えて頂いたお陰で、自分の手でお菓子が生まれる喜びがありました。また、家の用事で教室に行けない時は、オンラインでレッスンを視聴できたので、子どもと一緒に家でもスムーズにお菓子作りができました。今では個人的にお菓子のオンライン販売も行い、子どものお菓子として作る喜びも感じ、HOME
+                            MADE FACTORYで学んだことが入り口となって今の副業に活きています。</p>
+                    </div>
+                </div>
+                <div class="main-voice-item-wrap">
+                    <h3>オンラインで受講中の社会人/M.F様</h3>
+                    <div id="main-voice-row-verse" class="main-voice-item">
+                        <img src="image/main-voice-img2.png" alt="voice 口コミ">
+                        <p>男ですが幼いころから母の作るお菓子が好きでした。社会人になり今では母に作ってもらう機会がなくなり、自分でも甘いものを口にする機会が減りました。そんな中で仕事の合間に職場の方から頂いたお菓子を食べ、自分で作れないかな？と思ったのが受講のきっかけです。仕事が忙しく直接通うことはできないのでオンラインで視聴しております。出先でも動画を確認し、材料を買って帰ってお菓子作りに取り組めるので、HOME
+                            MADE FACTORYさんの参加システムに助けられております。</p>
+                    </div>
+                </div>
+                <div class="main-voice-item-wrap">
+                    <h3>受講を始めて2か月の社会人/F.H様</h3>
+                    <div class="main-voice-item">
+                        <img src="image/main-voice-img3.png" alt="voice 口コミ">
+                        <p>2か月前に受講を始めてみて、まだまだわからないことだらけですが先生に丁寧に教えていただいております。他のお菓子教室さんはプロ向けでしたり、経験者が多いイメージがありますがHOME MADE FACTORYさんは私と同じような初心者の方が多くほっとひと安心しつつ受講ができて気持ちの面で楽です。もしも私と同じように受講を悩まれている方がいらっしゃったら、ぜひともお勧めしたいです。</p>
+                    </div>
+                </div>
+                <h3>よくある質問</h3>
+                <div class="main-qanda">
+                    <div class="main-question">
+                        <p><i class="fa-brands fa-quora"></i><span
+                                class="main-question-text">レッスンはいつ開催していますか(20代/女性)</span>
+                        </p>
+                    </div>
+                    <div class="main-answer">
+                        <p><i class="fa-solid fa-a"></i><span
+                                class="main-question-text">毎週水・土曜日の10時・16時から2時間お菓子教室を開催しております。オンラインレッスンについては時間・場所問わずにご自身の好きな時間に視聴可能です(別途サブスク550円)。</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="main-qanda">
+                    <div class="main-question">
+                        <p><i class="fa-brands fa-quora"></i><span
+                                class="main-question-text">ズームを使用したことがないのですが(40代/男性)</span>
+                        </p>
+                    </div>
+                    <div class="main-answer">
+                        <p><i class="fa-solid fa-a"></i><span
+                                class="main-question-text">オンライン参加方法についてはお申込みいただいた方から順番にご説明させていただきますのでご安心ください。</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="main-qanda">
+                    <div class="main-question">
+                        <p><i class="fa-brands fa-quora"></i><span
+                                class="main-question-text">どのような方が受講していますか(30代/男性)</span>
+                        </p>
+                    </div>
+                    <div class="main-answer">
+                        <p><i class="fa-solid fa-a"></i><span
+                                class="main-question-text">主婦の方や仕事の合間にお菓子作りされる方もいらっしゃいます。また、これを機にお菓子作りを始められる男性もいらっしゃいますので、性別問わず受講される方が多いです。</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="main-qanda">
+                    <div class="main-question">
+                        <p><i class="fa-brands fa-quora"></i><span
+                                class="main-question-text">お菓子作りを全くしたことがないので不安です…(30代/女性)</span>
+                        </p>
+                    </div>
+                    <div class="main-answer">
+                        <p><i class="fa-solid fa-a"></i><span
+                                class="main-question-text">弊社で初めてお菓子作りを始めましたという方も多いのでご安心ください。もしも何か不安なことがあれば<a
+                                    href="#main-contact" class="form-jump-text">フォーム</a>よりお気軽にお問い合わせください。</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="main-detail">
+            <div class="background-green">
+                <div class="container">
+                    <h2>DETAIL</h2>
+                    <h3>募集要項</h3>
+                    <div class="main-detail-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th id="th-lesson-detail">レッスン料金</th>
+                                    <td>入会金1,000円　受講料3,300円（税込・材料費込み）毎回支払い<br>第1回講習日までに申し込み・納金いただきますと、1割引きになります!</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th id="th-lesson-date">開催日</th>
+                                    <td>毎週水・土曜日の10時から2時間の午前クラス（AM10：00～12：30）か、16時から2時間の午後クラス（16：00～18：00）のいずれかに登録して頂きます。年間5回受講して頂きます。申込は3日前の17時までです。
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>オンライン参加</th>
+                                    <td>基本料金は通常レッスン同様。リアルタイム参加はZoomを使用します。別途サブスクで550円（税込み）。過去のアーカイブを視聴可能です。</td>
+                                </tr>
+                                <tr>
+                                    <th>欠席される場合</th>
+                                    <td>事前に連絡を頂ければ、その回のレシピとケーキをご用意致します。
+                                        ご本人が都合が悪く欠席される場合は、代理の方の受講も可能です。</td>
+                                </tr>
+                                <tr>
+                                    <th>支払方法</th>
+                                    <td>クレジットカードのみ。</td>
+                                </tr>
+                                <tr>
+                                    <th>申込</th>
+                                    <td>料理教室・オンライン共に申し込みは<a href="#main-contact" class="form-jump-text">フォーム</a>から</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="background-white">
+                    <div class="container">
+                        <h3>場所</h3>
+                        <div class="main-detail-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12531.664662588295!2d140.89409586382988!3d38.25825034987711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8987f90a9e823b%3A0x8a841fe465daa12c!2z44CSOTgzLTAwNDUg5a6u5Z-O55yM5LuZ5Y-w5biC5a6u5Z-O6YeO5Yy65a6u5Z-O6YeO77yS5LiB55uu!5e0!3m2!1sja!2sjp!4v1720575773752!5m2!1sja!2sjp"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <p>〒983-0045<br> 宮城県仙台市宮城野区宮城野２丁目 <br>DOKOKANO BILL 2F<br>
+                                TEL：022（333）7777<br>
+                                営業時間：10:00 ～ 20:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="main-contact">
+            <div class="container">
+                <h2>CONTACT<span id="main-contact-span">レッスン申込・問い合わせもこちらからどうぞ</span></h2>
+                <div class="main-contact-item">
+                    <form>
+                        <p><label><span class="contact-form-text">お名前<span class="form-required">必須</span></span><br>
+                                <input class="contact-input-text" type="text" name="お名前" placeholder="例）山田　花子" required>
+                            </label></p>
+                        <p><label><span class="contact-form-text">メールアドレス<span
+                                        class="form-required">必須</span></span><br>
+                                <input class="contact-input-text" type="text" name="メールアドレス"
+                                    placeholder="xxxxx@example.com" required>
+                            </label></p>
+                        <p><span class="contact-form-text">性別</span><br>
+                            <label class="contact-radio-type"><input type="radio" value="男性" name="性別">男性</label>
+                            <label class="contact-radio-type"><input type="radio" value="女性" name="性別">女性</label>
+                            <label class="contact-radio-type"><input type="radio" value="無回答" name="性別">無回答</label>
+                        </p>
+                        <p><label><span class="contact-form-text">年齢</span><br>
+                                <select name="年齢">
+                                    <option hidden value="">-選択-</option>
+                                    <option value="10代">10代</option>
+                                    <option value="20代">20代</option>
+                                    <option value="30代">30代</option>
+                                    <option value="40代">40代</option>
+                                    <option value="50代">50代</option>
+                                    <option value="60代">60代</option>
+                                    <option value="70代">70代</option>
+                                    <option value="80代">80代</option>
+                                    <option value="90代">90代</option>
+                                    <option value="無回答">無回答</option>
+                                </select>
+                            </label>
+                        </p>
+                        <script src="script.js"></script>
+                        <p><label><span class="contact-form-text">レッスン申込・問い合わせ<span
+                                        class="form-required">必須</span></span><br>
+                                <select name="レッスン申込・問い合わせ区分" id="main-contact-type" onchange="entryChange();" required>
+                                    <option hidden value="" id="contact-type-none">-選択-</option>
+                                    <option value="レッスン">レッスン</option>
+                                    <option value="問い合わせ">問い合わせ</option>
+                                    <option value="その他">その他</option>
+                                </select>
+                            </label></p>
+
+                        <!-- レッスンが選ばれたら表示 -->
+                        <div id="first-contact-type" style="display: none;">
+                            <p><label><span class="contact-form-text">種類<span class="form-required">必須</span></span><br>
+                                    <select name="レッスン種類" required>
+                                        <option hidden value="">-選択-</option>
+                                        <option value="対面レッスン">対面レッスン</option>
+                                        <option value="オンラインレッスン">オンラインレッスン</option>
+                                    </select>
+                                </label></p>
+                            <p><label><span class="contact-form-text">サブスク<span
+                                            class="form-required">必須</span></span><span
+                                        id="form-text-add">別途550円頂きます</span><br>
+                                    <select name="サブスク" required>
+                                        <option hidden value="">-選択-</option>
+                                        <option value="希望する">希望する</option>
+                                        <option value="希望しない">希望しない</option>
+                                    </select>
+                                </label></p>
+                            <p><label><span class="contact-form-text">住所<span class="form-required">必須</span></span><br>
+                                    <textarea name="住所" placeholder="郵便番号からご記入ください。" required></textarea></label>
+                            </p>
+                            <p><label><span class="contact-form-text">自由記入欄(申込理由などあれば)</span><br>
+                                    <textarea name="自由記入欄" placeholder="ご自由にご記載ください。"></textarea></label>
+                            </p>
+                            <p><input type="submit" value="送信" id="contact-form-btn"></p>
+                        </div>
+
+                        <!-- 問い合わせ・その他が選ばれたら表示 -->
+                        <div id="second-contact-type" style="display: none;">
+                            <p><label><span class="contact-form-text">問い合わせ内容</span><br>
+                                    <textarea name="自由記入欄" placeholder="ご自由にご記載ください。"></textarea></label>
+                            </p>
+                            <p><input type="submit" value="送信" id="contact-form-btn"></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer-container container">
+            <nav id="footer-nav">
+                <ul class="footer-nav-list">
+                    <a href="#main-about">
+                        <li class="footer-nav-item">ABOUT</li>
+                    </a>
+                    <a href="#main-info">
+                        <li class="footer-nav-item">NEWS</li>
+                    </a>
+                    <a href="#main-voice">
+                        <li class="footer-nav-item">VOICE</li>
+                    </a>
+                    <a href="#main-detail">
+                        <li class="footer-nav-item">DETAIL</li>
+                    </a>
+                    <a href="#main-contact">
+                        <li class="footer-nav-item">CONTACT</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="footer-link-wrap">
+                <p><a href="#"><img src="image/footer-logo.png" alt="ロゴ"></a></p>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <small>
+                <p id="footer-COPYRIGHTS">COPYRIGHTS&copy;2024 HOME MADE FACTORY ALL RIGHTS RESERVED</p>
+            </small>
+        </div>
+    </footer>
+</body>
+
+</html>
